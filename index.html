@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Füchse</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,17 +23,20 @@
     <nav class="nav-bar">
       <div class="container">
         <div class="logo">FÜCHSE</div>
-        <ul>
+        <button id="menu">
+          <img src="./img/stash_burger-classic-light.svg" alt="" />
+        </button>
+        <!-- <ul>
           <li><a href="#home">Startseite</a></li>
           <li><a href="#about">Über uns</a></li>
           <li><a href="#contact">Kontakt</a></li>
-        </ul>
+        </ul> -->
       </div>
     </nav>
     <header class="header">
       <div class="container">
         <div>
-          <h1>Füchse</h1>
+          <h1 id="home">Füchse</h1>
           <p>
             Hier findest du Steckbriefe zu zwei faszinierenden Fuchsarten: 🦊
             Vulpes vulpes – Der klassische Rotfuchs, wie wir ihn heute kennen.
@@ -47,114 +50,129 @@
             Zukunft! 🦊🚀
           </p>
         </div>
-        <img src="./fuchs.webp" alt="" />
+        <img id="fox-image" src="./img/fuchs.webp" alt="" />
       </div>
     </header>
     <section class="boxes">
-      <div class="container">
-        <div class="box">
-          <h2><i class="fas fa-paw"></i> Der Rotfuchs</h2>
-          <p>
-            Rotfüchse sind kleine Raubtiere. Sie leben in Europa, Asien, Afrika,
-            Nordamerika und Australien. In Europa ist der Rotfuchs am
-            häufigsten. Seine auffälligsten Merkmale sind das rote Fell, das
-            weiße Maul, die weiße Brust, die dunkelbraunen Pfoten und der lange,
-            buschige Schwanz.
-          </p>
-        </div>
-        <div class="box">
-          <h2><i class="fas fa-atom"></i> Vulpes futuris</h2>
-          <p>
-            In einer von Umweltkatastrophen und menschlichem Verfall geprägten
-            Zukunft haben sich Füchse zu extrem anpassungsfähigen
-            Überlebenskünstlern entwickelt. Sie sind nachtaktive Aasfresser, die
-            gelernt haben, sich in verseuchten Umgebungen zurechtzufinden. Ihr
-            Verhalten ist geprägt von Vorsicht, Raffinesse und einer nahezu
-            übernatürlichen Fähigkeit, Gefahren vorauszuahnen.
-          </p>
-        </div>
-        <div class="box">
-          <h2><i class="fas fa-dna"></i> Lorem, ipsum.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            ipsam quo a nihil, cum ratione, consequatur assumenda ab quasi
-            fugiat, repudiandae nobis porro iusto. Nobis, totam corporis eum
-            eius rem nihil consequatur aliquid facilis asperiores beatae
-            adipisci accusamus reprehenderit molestias!
-          </p>
-        </div>
+      <!-- <div class="container"> -->
+      <div class="box box-1">
+        <h2><i class="fas fa-paw"></i> Der Rotfuchs</h2>
+        <p>
+          Rotfüchse sind kleine Raubtiere. Sie leben in Europa, Asien, Afrika,
+          Nordamerika und Australien. In Europa ist der Rotfuchs am häufigsten.
+          Seine auffälligsten Merkmale sind das rote Fell, das weiße Maul, die
+          weiße Brust, die dunkelbraunen Pfoten und der lange, buschige Schwanz.
+        </p>
       </div>
-    </section>
-    <section class="boxes">
-      <div class="container">
-        <div class="box">
-          <h2><i class="fas fa-paw"></i> Der Rotfuchs</h2>
-          <p>
-            Rotfüchse sind kleine Raubtiere. Sie leben in Europa, Asien, Afrika,
-            Nordamerika und Australien. In Europa ist der Rotfuchs am
-            häufigsten. Seine auffälligsten Merkmale sind das rote Fell, das
-            weiße Maul, die weiße Brust, die dunkelbraunen Pfoten und der lange,
-            buschige Schwanz.
-          </p>
-        </div>
-        <div class="box">
-          <h2><i class="fas fa-atom"></i> Vulpes futuris</h2>
-          <p>
-            In einer von Umweltkatastrophen und menschlichem Verfall geprägten
-            Zukunft haben sich Füchse zu extrem anpassungsfähigen
-            Überlebenskünstlern entwickelt. Sie sind nachtaktive Aasfresser, die
-            gelernt haben, sich in verseuchten Umgebungen zurechtzufinden. Ihr
-            Verhalten ist geprägt von Vorsicht, Raffinesse und einer nahezu
-            übernatürlichen Fähigkeit, Gefahren vorauszuahnen.
-          </p>
-        </div>
-        <div class="box">
-          <h2><i class="fas fa-dna"></i> Lorem, ipsum.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            ipsam quo a nihil, cum ratione, consequatur assumenda ab quasi
-            fugiat, repudiandae nobis porro iusto. Nobis, totam corporis eum
-            eius rem nihil consequatur aliquid facilis asperiores beatae
-            adipisci accusamus reprehenderit molestias!
-          </p>
-        </div>
+      <div class="box box-2">
+        <h2><i class="fas fa-atom"></i> Vulpes futuris</h2>
+        <p>
+          In einer von Umweltkatastrophen und menschlichem Verfall geprägten
+          Zukunft haben sich Füchse zu extrem anpassungsfähigen
+          Überlebenskünstlern entwickelt. Sie sind nachtaktive Aasfresser, die
+          gelernt haben, sich in verseuchten Umgebungen zurechtzufinden. Ihr
+          Verhalten ist geprägt von Vorsicht, Raffinesse und einer nahezu
+          übernatürlichen Fähigkeit, Gefahren vorauszuahnen.
+        </p>
       </div>
-    </section>
-    <section class="boxes">
-      <div class="container">
-        <div class="box">
-          <h2><i class="fas fa-paw"></i> Der Rotfuchs</h2>
-          <p>
-            Rotfüchse sind kleine Raubtiere. Sie leben in Europa, Asien, Afrika,
-            Nordamerika und Australien. In Europa ist der Rotfuchs am
-            häufigsten. Seine auffälligsten Merkmale sind das rote Fell, das
-            weiße Maul, die weiße Brust, die dunkelbraunen Pfoten und der lange,
-            buschige Schwanz.
-          </p>
-        </div>
-        <div class="box">
-          <h2><i class="fas fa-atom"></i> Vulpes futuris</h2>
-          <p>
-            In einer von Umweltkatastrophen und menschlichem Verfall geprägten
-            Zukunft haben sich Füchse zu extrem anpassungsfähigen
-            Überlebenskünstlern entwickelt. Sie sind nachtaktive Aasfresser, die
-            gelernt haben, sich in verseuchten Umgebungen zurechtzufinden. Ihr
-            Verhalten ist geprägt von Vorsicht, Raffinesse und einer nahezu
-            übernatürlichen Fähigkeit, Gefahren vorauszuahnen.
-          </p>
-        </div>
-        <div class="box">
-          <h2><i class="fas fa-dna"></i> Lorem, ipsum.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            ipsam quo a nihil, cum ratione, consequatur assumenda ab quasi
-            fugiat, repudiandae nobis porro iusto. Nobis, totam corporis eum
-            eius rem nihil consequatur aliquid facilis asperiores beatae
-            adipisci accusamus reprehenderit molestias!
-          </p>
-        </div>
+      <div class="box box-3">
+        <h2><i class="fas fa-dna"></i> Lorem, ipsum.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsam
+          quo a nihil, cum ratione, consequatur assumenda ab quasi fugiat,
+          repudiandae nobis porro iusto. Nobis, totam corporis eum eius rem
+          nihil consequatur aliquid facilis asperiores beatae adipisci accusamus
+          reprehenderit molestias! Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Sit, culpa! Ipsa praesentium neque, reprehenderit
+          vitae porro iste sit. Pariatur voluptates sapiente placeat illum ea,
+          sunt perferendis at quis natus impedit a eius ipsam culpa quidem
+          repellat itaque ipsum veritatis minima quo accusamus vel cum
+          consequatur optio inventore! Non, laboriosam vel! Lorem ipsum dolor
+          sit amet consectetur, adipisicing elit. Quae iusto voluptates atque
+          dolores, rem culpa error iure mollitia eligendi libero harum. Voluptas
+          reiciendis vero eveniet. Et distinctio amet asperiores harum magnam a
+          voluptates reprehenderit laudantium sapiente corrupti, ipsa quia
+          itaque possimus dolorem at provident culpa, deserunt eaque ullam
+          officia odit ab! Voluptatum incidunt, velit animi distinctio culpa
+          nesciunt odio mollitia perferendis quidem reprehenderit dolor tenetur,
+          numquam, quisquam laborum facilis nisi harum tempora! Adipisci cum
+          aliquid perspiciatis error nesciunt deserunt, explicabo fugiat ea
+          dolores distinctio rerum maiores, neque temporibus natus excepturi
+          repudiandae nostrum? Ea nostrum quisquam nulla aperiam amet ducimus
+          cupiditate?
+        </p>
       </div>
+      <!-- </div> -->
+      <!-- </section>
+        <section class="boxes"> -->
+      <!-- <div class="container"> -->
+      <div class="box box-4">
+        <h2><i class="fas fa-paw"></i> Der Rotfuchs</h2>
+        <p>
+          Rotfüchse sind kleine Raubtiere. Sie leben in Europa, Asien, Afrika,
+          Nordamerika und Australien. In Europa ist der Rotfuchs am häufigsten.
+          Seine auffälligsten Merkmale sind das rote Fell, das weiße Maul, die
+          weiße Brust, die dunkelbraunen Pfoten und der lange, buschige Schwanz.
+        </p>
+      </div>
+      <div class="box box-5">
+        <h2><i class="fas fa-atom"></i> Vulpes futuris</h2>
+        <p>
+          In einer von Umweltkatastrophen und menschlichem Verfall geprägten
+          Zukunft haben sich Füchse zu extrem anpassungsfähigen
+          Überlebenskünstlern entwickelt. Sie sind nachtaktive Aasfresser, die
+          gelernt haben, sich in verseuchten Umgebungen zurechtzufinden. Ihr
+          Verhalten ist geprägt von Vorsicht, Raffinesse und einer nahezu
+          übernatürlichen Fähigkeit, Gefahren vorauszuahnen.
+        </p>
+      </div>
+      <div class="box box-6">
+        <h2><i class="fas fa-dna"></i> Lorem, ipsum.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsam
+          quo a nihil, cum ratione, consequatur assumenda ab quasi fugiat,
+          repudiandae nobis porro iusto. Nobis, totam corporis eum eius rem
+          nihil consequatur aliquid facilis asperiores beatae adipisci accusamus
+          reprehenderit molestias!
+        </p>
+      </div>
+      <!-- </div> -->
+      <!-- </section>
+     <section class="boxes"> -->
+      <!-- <div class="container"> -->
+      <div class="box box-7">
+        <h2><i class="fas fa-paw"></i> Der Rotfuchs</h2>
+        <p>
+          Rotfüchse sind kleine Raubtiere. Sie leben in Europa, Asien, Afrika,
+          Nordamerika und Australien. In Europa ist der Rotfuchs am häufigsten.
+          Seine auffälligsten Merkmale sind das rote Fell, das weiße Maul, die
+          weiße Brust, die dunkelbraunen Pfoten und der lange, buschige Schwanz.
+        </p>
+      </div>
+      <div class="box box-8">
+        <h2><i class="fas fa-atom"></i> Vulpes futuris</h2>
+        <p>
+          In einer von Umweltkatastrophen und menschlichem Verfall geprägten
+          Zukunft haben sich Füchse zu extrem anpassungsfähigen
+          Überlebenskünstlern entwickelt. Sie sind nachtaktive Aasfresser, die
+          gelernt haben, sich in verseuchten Umgebungen zurechtzufinden. Ihr
+          Verhalten ist geprägt von Vorsicht, Raffinesse und einer nahezu
+          übernatürlichen Fähigkeit, Gefahren vorauszuahnen.
+        </p>
+      </div>
+      <div class="box box-9">
+        <h2><i class="fas fa-dna"></i> Lorem, ipsum.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsam
+          quo a nihil, cum ratione, consequatur assumenda ab quasi fugiat,
+          repudiandae nobis porro iusto. Nobis, totam corporis eum eius rem
+          nihil consequatur aliquid facilis asperiores beatae adipisci accusamus
+          reprehenderit molestias!
+        </p>
+      </div>
+      <!-- </div> -->
     </section>
   </body>
+  <footer><p>©2025 - Brian Kodehode</p></footer>
 </html>
 <!-- Challenge: gjør nav-baren sticky! -->
