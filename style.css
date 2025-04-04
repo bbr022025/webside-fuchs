@@ -106,19 +106,17 @@ footer > p {
 .boxes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 68.75rem;
   justify-content: space-around;
   /* justify-content: space-between; */
 }
 
 .box-1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column: 1/2;
 }
 .box-2 {
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column: 2/4;
 }
 .box-3 {
   grid-area: 2/1/4/3;
